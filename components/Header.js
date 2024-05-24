@@ -18,7 +18,7 @@ function Header(){
     return(
         <div className="p-4 pb-3 pl-10 border-b-[4px] border-gray-300 flex items-center justify-between">
             <div className="flex gap-24 items-center">
-                <Image src='/uber-clone-trans.png' 
+                <Image src='/logo.svg' 
                 width={200} height={70} alt='logo'/>
                 <div className="flex gap-6 items-center">
                     {headerMenu.map((item)=>(
