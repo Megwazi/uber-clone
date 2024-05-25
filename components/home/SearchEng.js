@@ -1,6 +1,7 @@
 "use client"
 import React, { useEffect } from 'react'
 import InputItem from './InputItem'
+import { useContext } from 'react';
 import { SourceContext } from '@/context/SourceContext';
 import { DestinationContext } from '@/context/DestinationContext';
 
@@ -11,6 +12,9 @@ function SearchEng() {
   useEffect(()=>{
     if(source){
       console.log(source);
+    }
+    if(destination){
+      console.log(destination);
     }
   },[source, destination])
 
